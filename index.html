@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo de Química Orgânica</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <header>
+            <h1>🧪 Quiz Quântico</h1>
+            <h2>Funções Orgânicas e Isomeria</h2>
+        </header>
+
+        <div id="quiz-screen">
+            <div class="progress-bar">
+                <div id="progress" class="progress-fill"></div>
+            </div>
+            <div id="question" class="question-text">Carregando pergunta...</div>
+            <div id="options" class="options-grid"></div>
+        </div>
+
+        <div id="result-screen" class="hidden">
+            <div class="trophy">🎉</div>
+            <h3>Fim de Jogo!</h3>
+            <p id="score-text">Você acertou 0 de 0 perguntas.</p>
+            <button id="restart-btn" class="btn btn-restart">Jogar Novamente</button>
+        </div>
+
+        <footer class="footer-controls">
+            <button id="next-btn" class="btn btn-next hidden">Próxima Pergunta ➔</button>
+        </footer>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
